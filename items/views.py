@@ -12,7 +12,7 @@ from rest_framework.parsers import JSONParser, MultiPartParser
 
 
 class ItemSearchView(HaystackViewSet):
-    #  renderer_classes = (JSONRenderer,)  ############################# return raw json ###############################
+    #  renderer_classes = (JSONRenderer,)  ############################# return raw json ##############################
 
     index_models = [Item]
     # queryset = Item.objects.exclude(validated=False)
